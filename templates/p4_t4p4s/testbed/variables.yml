@@ -1,0 +1,22 @@
+---
+
+tapas:
+        git:
+                url: https://gitlab+deploy-token-247:-K1yHEhTvygwQsCiJ8tG@gitlab.lrz.de/p4/tapas/t4p4s.git
+                commit: {{ commits.t4p4s_commit }}
+                bootstrap_commit: {{ commits.t4p4s_boots }}
+
+versions:
+        hlir16: {{ commits.hlir16 }}
+        p4c: {{ commits.p4c }}
+        p4runtime: {{ commits.p4runtime }}
+        dpdk: 19.02
+        protobuf: {{ commits.protobuf }}
+port:
+        tx: {{ port.tx }}
+        rx: {{ port.rx }}
+max_cpu_frequency: {{ cpu_frequency }}
+
+perf:
+        runs: 4
+        events: {{ events }}

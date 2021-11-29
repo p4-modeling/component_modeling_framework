@@ -1,0 +1,9 @@
+---
+
+duration:
+        max_load: 10
+        latency: 60
+{% if not scale_load %}
+latency_rates:
+{% endif %}
+repeat_max_load: {{ repetitions }}

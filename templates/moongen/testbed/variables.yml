@@ -1,0 +1,8 @@
+---
+
+port:
+        tx: {{ port.tx }}
+        rx: {{ port.rx }}
+{% if packet_size %}
+packet_size: {{ packet_size }}
+{% endif %}

@@ -1,0 +1,6 @@
+[submodule "deps/plot_scripts"]
+	path = deps/plot_scripts
+	url = https://github.com/p4-modeling/plot_scripts.git
+[submodule "deps/p4gen16"]
+	path = deps/p4gen16
+	url = https://github.com/p4-modeling/p4gen16.git

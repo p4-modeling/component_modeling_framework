@@ -1,0 +1,32 @@
+---
+
+loadgen:
+        name: nida
+        port:
+                tx: 0
+                rx: 1
+dut:
+        name: cesis
+        port:
+                tx: 2
+                rx: 1
+        cpu_frequencies:
+                - 2.00
+                - 1.90
+                - 1.80
+                - 1.70
+                - 1.60
+                - 1.50
+                - 1.40
+                - 1.30
+                - 1.20
+        cores:
+                - 0
+                - 1
+                - 2
+                - 3
+                - 4
+                - 5
+                - 6
+                - 7
+moongen_core_id: 1

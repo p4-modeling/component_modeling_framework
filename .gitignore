@@ -1,0 +1,8 @@
+*.pyc
+*.sw*
+*.swo
+venv3/
+build
+dist
+experiments/
+sample/
